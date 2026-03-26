@@ -80,16 +80,31 @@
            <label><input type="checkbox" name="furtividade hobbit">Furtividade Hobbit</label>
 </fieldset><br><br>
 
-<label for="nivel">Nível de coragem (1 a 10)</label>  
+<label for="nivel">Nível de coragem (1 a 10):</label>  
             <input type="range" max="10" min="1" id="nivel" name="nivel"><br><br>
 
-<label for="seu reino de origem">Seu reino de origem</label> <input type="text" id="busca_datalist" list="reinos">
+<label for="seu reino de origem">Seu reino de origem:</label> <input type="text" id="busca_datalist" list="reinos">
 <datalist id="reinos">
     <option>Gondor</option>
     <option>Rohan</option>
     <option>Mordor</option>
     <option>Condado</option>
 </datalist><br><br>
+
+<label for="cor">Cor do seu manto:</label>
+        <input type="color" id="cor" name="cor"><br><br>
+
+<label for="data">Data da sua jornada:</label>
+        <input type="date" name="data" id="data"><br><br>
+
+<label for="arquivo">Anexe uma relíquia:</label>
+        <input type="file" id="arquivo" name="arquivo"><br><br>
+
+<label for="descrição">Mensagem ao Conselho:</label><br>
+<input type="message" id="mensagem" name="mensagem" placeholder="Escreva sua missão...">
+            <textarea cols="30" rows="10" name="descrição" id="descrição"></textarea><br><br>
+
+
 
         <label for="telefone">Telefone</label>
         <input type="tel" name="telefone" id="telefone"
