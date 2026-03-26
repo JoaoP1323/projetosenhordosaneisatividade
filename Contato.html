@@ -57,7 +57,7 @@
     <option selected value="o retorno">O Retorno do Rei</option>
 </select><br><br>
 
-        <select id="lista suspensa" name="lista">
+      <label for="escolha um">Escolha um local da Terra Média:</label>   <select id="lista suspensa" name="lista">
     <optgroup label="Reino dos Homens">
     <option value="gondor">Gondor</option>
     <option value="rohan">Rohan</option>
@@ -71,6 +71,25 @@
     <option value="condado">Condado</option>
     </optgroup>
 </select><br><br>
+
+<fieldset>
+           <legend>Suas habilidades</legend>
+           <label><input type="checkbox" name="espada">Espada</label>
+           <label><input type="checkbox" name="arco e flecha">Arco e flecha</label>
+           <label><input type="checkbox" name="magia">Magia</label>
+           <label><input type="checkbox" name="furtividade hobbit">Furtividade Hobbit</label>
+</fieldset><br><br>
+
+<label for="nivel">Nível de coragem (1 a 10)</label>  
+            <input type="range" max="10" min="1" id="nivel" name="nivel"><br><br>
+
+<label for="seu reino de origem">Seu reino de origem</label> <input type="text" id="busca_datalist" list="reinos">
+<datalist id="reinos">
+    <option>Gondor</option>
+    <option>Rohan</option>
+    <option>Mordor</option>
+    <option>Condado</option>
+</datalist><br><br>
 
         <label for="telefone">Telefone</label>
         <input type="tel" name="telefone" id="telefone"
