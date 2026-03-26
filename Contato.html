@@ -31,13 +31,26 @@
             id="nomepessoa" minlength="3" maxlength="15" required
             placeholder="Ex: Aragorn"><br><br>
              
-        <label for="email">Email:</label>
+        <label for="email">Corvo eletrônico (Email)</label>
         <input type="email" name="email" id="email" required
         placeholder="E-mail"><br><br>
 
         <label for="ano">Ano de Nascimento</label>
         <input type="number" id="ano" name="ano" max="2026" min="1900"
         placeholder="Informe ano de nascimento"><br><br>
+
+        <fieldset>
+            <legend>Qual é a sua raça?</legend>
+            <select id="lista suspensa" name="lista">
+            <optgroup label="Teste de legenda no combobox">
+                <option value="Humano">Humano</option>
+                <option value="Elfo">Elfo</option>
+                <option value="Anão">Anão</option>
+                <option value="Hobbit">Hobbit</option>
+           
+            </optgroup>
+            </select>
+        </fieldset>
 
         <label for="telefone">Telefone</label>
         <input type="tel" name="telefone" id="telefone"
